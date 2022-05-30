@@ -29,6 +29,7 @@ jobs:
           command: mvn test
       - codecov/upload:
           file: 'target/my-reports/jacoco.xml'
+          token: db1b9286-3120-497a-99f3-9bbaa8b04c02
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
